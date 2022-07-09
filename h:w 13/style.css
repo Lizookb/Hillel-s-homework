@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	height: 5000px;
+	font-family: "TT Norms Pro";
+	background:#8080a5;
+	color:#B3B3BA;
+	font-size: 18px;
+}
+form {
+	margin:10px;
+}
+
+.modal {
+	position:fixed;
+	width: 500px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: #F5F5FA;
+	border-radius: 12px;
+}
+input {
+	width: 460px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	padding-left: 10px;
+	margin:10px;
+}
+
+.button {
+	position: absolute;
+	left: 139px;
+	width: 250px;
+	height: 50px;
+	font-size: 14px;
+	color: #ffffff;
+	background: #24A3FF;
+	border: none;
+	box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+	border-radius: 12px;
+}
+.btn {
+	padding:10px
+}
+.err {
+	outline: 2px solid red;
+	outline-style:groove;
+	border-radius: 5px;
+}
